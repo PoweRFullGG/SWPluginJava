@@ -1,0 +1,108 @@
+name: artifactworld
+version: '1.0'
+main: me.p0n41k.artifactworld.Artifactworld
+api-version: '1.20'
+
+commands:
+  runamenu:
+    description: Open the runa menu
+    usage: /runamenu
+    permission: plserver.runamenu
+  spellmenu:
+    description: Open the spell menu
+    usage: /spellmenu
+    permission: plserver.spellmenu
+  resetspells:
+    description: Reset the spell menu
+    usage: /resetspells
+    permission: plserver.resetspells
+  setmaxslot:
+    description: Устанавливает значение для игрока
+    usage: /setmaxslot
+    permission: plserver.setmaxslot
+  addmaxslot:
+    description: Добавляет значение для игрока
+    usage: /addmaxslot
+    permission: plserver.addmaxslot
+  setmaxmana:
+    description: Добавляет значение для игрока
+    usage: /setmaxmana
+    permission: plserver.setmaxmana
+  addmaxmana:
+    description: Добавляет значение для игрока
+    usage: /addmaxmana
+    permission: plserver.addmaxmana
+  setsecondmana:
+    description: Устанавливает значение для игрока
+    usage: /setsecondmana
+    permission: plserver.setsecondmana
+  cdreset:
+    description: Убирает кулдаун для игрока
+    usage: /cdreset
+    permission: plserver.cdreset
+  playtime:
+    description: Показывает наигранное время игрока
+    usage: /playtime
+    permission: plserver.playtime
+  addrubins:
+    description: Увеличивает рубины для игрока
+    usage: /addrubins
+    permission: plserver.addrubins
+  setrubins:
+    description: Устанавливает рубины для игрока
+    usage: /setrubins
+    permission: plserver.setrubins
+  addrep:
+    description: Увеличивает репутацию для игрока
+    usage: /addrep
+    permission: plserver.addrep
+  setrep:
+    description: Устанавливает рeпутацию для игрока
+    usage: /setrep
+    permission: plserver.setrep
+  flash:
+    description: Режим психа
+    usage: /flash
+    permission: plserver.flash
+  allspells:
+    description: Меню сол всеми заклинаниями
+    usage: /allspells
+    permission: plserver.allspells
+
+
+
+
+permissions:
+  plserver.runamenu:
+    default: op
+  plserver.spellmenu:
+    description: Allows the player to use the /spellmenu command
+    default: op
+  plserver.resetspells:
+    default: op
+  plserver.setmaxslot:
+    default: op
+  plserver.addmaxslot:
+    default: op
+  plserver.setmaxmana:
+    default: op
+  plserver.addmaxmana:
+    default: op
+  plserver.reload:
+    default: op
+  plserver.setsecondmana:
+    default: op
+  plserver.cdreset:
+    default: op
+  plserver.setrubins:
+    default: op
+  plserver.addrubins:
+    default: op
+  plserver.setrep:
+    default: op
+  plserver.addrep:
+    default: op
+  plserver.flash:
+    default: op
+  plserver.allspells:
+    default: op
